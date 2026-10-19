@@ -1,0 +1,16 @@
+# Golden Reel v6 — PWA
+
+Arquivos:
+- ranking_melhores_filmes_v6.html: app principal
+- manifest.webmanifest: metadados de instalação
+- sw.js: cache/offline básico
+- icon-192.png / icon-512.png: ícones
+
+## Como testar
+Um PWA precisa ser servido por HTTPS (ou localhost para teste); abrir o HTML por duplo clique não ativa a instalação nem o service worker.
+
+## Como publicar
+Envie os cinco arquivos para a mesma pasta em um host estático com HTTPS (por exemplo, GitHub Pages ou Netlify). A URL publicada pode ser compartilhada. O arquivo de entrada é `ranking_melhores_filmes_v6.html`; se quiser que a URL raiz abra diretamente, renomeie-o para `index.html` no host e ajuste `start_url` no manifest para `./`.
+
+## Importante sobre dados
+Os registros ficam no armazenamento local do navegador. Instalar/abrir em outro aparelho ou compartilhar o link NÃO sincroniza automaticamente os dados entre as pessoas. Para um ranking colaborativo com dados comuns, será necessário conectar um banco/backend e implementar acesso compartilhado. Faça exportações JSON regulares.
