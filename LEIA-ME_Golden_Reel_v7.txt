@@ -1,0 +1,14 @@
+GOLDEN REEL V7 — VERSÃO DE TESTE
+
+Esta é uma versão separada para testar a nova interface. Ela mantém o sistema de ranking, avaliações, sessões, eventos e importação/exportação do v6, adicionando a abertura cinematográfica B e uma apresentação visual premium preta e dourada.
+
+COMO TESTAR
+1. Extraia todo o ZIP para uma pasta.
+2. Abra index.html no Chrome/Edge para testar a interface.
+3. A abertura fecha sozinha em cerca de 8,5 segundos. Clique em “Pular abertura” para entrar antes.
+4. Seus dados continuam no armazenamento local deste navegador. Para importar seu ranking existente, use “Importar backup” e selecione o JSON exportado pelo site anterior.
+
+IMPORTANTE
+- Não substitua ainda os arquivos no GitHub Pages.
+- Esta versão não cria sincronização entre dispositivos; localStorage continua separado por navegador/dispositivo.
+- Faça backup com “Exportar ranking” antes de importar ou substituir dados.
